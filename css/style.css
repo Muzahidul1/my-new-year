@@ -26,7 +26,9 @@ header{
 }
 
 header > div,
-header{
+header,
+.my-failures,
+.my-failures div{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -62,5 +64,92 @@ header .btn{
     font-size: 20px;
     border: none;
 }
+
+
+/* failures section */
+
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+    
+
+.my-failures{
+   margin: 50px 250px;
+   background-color: rgba(241, 93, 34, 0.2);
+   background: url("../images/person.png");
+   background-repeat: no-repeat;
+   height: 900px;
+}
+
+
+.my-failures div{
+   width: 400px;
+   align-items: flex-start;
+}
+
+
+.my-failures h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-failures p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0;
+}
+
+.my-failures ul li{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 10px;
+}
+
+.my-failures ul{
+    padding-left: 20px;
+    list-style-type: '\2713';
+}
+
+
+/* my plans */
+
+.plan-section{
+    text-align: center;
+    margin: 0 250px;
+}
+
+
+.plan-section > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-section h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plan-section h3{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.plan-section p{
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
 
 
